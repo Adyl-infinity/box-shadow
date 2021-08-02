@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+</head>
+<body>
+<h2 class="head">Box Shadow Generator</h2>
+
+<section class="inputs">
+    <div class="blockone">
+        <label for="Border Radius" class="textdecor">Border Radius Value: <span id="demo1"></span></label>
+        <input type="range" class="border-radius range-blue" max="50" min="-50" value="0" name="Border Radius">
+
+        <label for="Offset X" class="textdecor">Offset X Value: <span id="demo2"></span></label>
+        <input type="range" class="offsetX range-blue" value="0" name="Offset X">
+
+        <label for="Offset Y" class="textdecor">Offset Y Value: <span id="demo3"></span></label>
+        <input type="range" class="offsetY range-blue" value="0" name="Offset Y">
+
+        <label for="Blur" class="textdecor">Blur Value: <span id="demo4"></span></label>
+        <input type="range" class="blur range-blue" value="0" name="Blur">
+
+        <label for="Spread" class="textdecor">Spread Value: <span id="demo5"></span></label>
+        <input type="range" class="spread range-blue" value="0" name="Spread">
+    </div>
+
+
+    <div class="blocktwo">
+        <div class="displayone">
+            <input type="color" class="shadow-color" value="#8000FF" name="shadow-color" id="shadow-color">
+            <label for="shadow-color" class="textdecor">Shadow Color</label>
+
+            <input type="color" class="box-color" value="#21FFFF" name="box-color" id="box-color">
+            <label for="box-color" class="textdecor">Box Color</label>
+        </div>
+        <div class="displaytwo">
+            <input type="radio" class="outset" name="type" id="outset" checked>
+            <label for="outset" class="textdecor">Outset</label>
+
+            <input type="radio" class="inset" name="type" id="inset">
+            <label for="inset" class="textdecor">Inset</label>
+        </div>
+    </div>
+</section>
+
+
+
+    <div class="box"></div>
+    <div class="out"></div>
+
+
+
+<script src="./script.js"></script>
+</body>
+</html>
