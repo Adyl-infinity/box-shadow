@@ -2,7 +2,7 @@
 
 
 body{
-    background: black;
+    background-color: black;
 }
 .box{
     width: 200px;
@@ -10,7 +10,7 @@ body{
     background-color: tomato;
     position: relative;
     left: 680px;
-    bottom: 320px;
+    bottom: 380px;
 }
 
 .out{
@@ -19,7 +19,7 @@ body{
     border-radius: 10px;
     width: 330px;
     margin-left: 600px;
-    margin-top: -270px;
+    margin-top: -320px;
 }
 
 .blockone{
